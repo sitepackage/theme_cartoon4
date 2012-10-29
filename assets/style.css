@@ -341,7 +341,7 @@ body{
 #header .logo_wrapper,
 #header .logo {
 	display: block;
-  width: 306px;
+  width: 300px;
   height: 100px;
 }
 #header .logo_wrapper {
@@ -1113,6 +1113,7 @@ body{
 }
 #product .image {
 	float: left;
+  width:242px;
 }
 #product .description a {
     color: #fe4974;
@@ -1169,6 +1170,7 @@ body{
 	background: #fff no-repeat center center;
 	border:1px solid #eaeaea;
 	display: block;
+  margin:0 0 10px 0;
 }
 #product .all{
   padding:0;
@@ -1200,9 +1202,7 @@ body{
 }
 #product .extra_images {
 	padding: 0;
-    margin: 10px 0 0 0;
-    float: left;
-    width: 250px;
+  margin:0;
 }
 #product .extra_images ul {
 	padding: 0;
@@ -1215,8 +1215,11 @@ body{
 	width: 50px;
 	height: 50px;
 	background: transparent no-repeat center center;
-	margin: 0 10px 10px 0;
+	margin: 0 11px 10px 0;
 	border: 1px solid #eaeaea;
+}
+#product .extra_images .last span {
+	margin: 0 0px 10px 0;
 }
 #product .buy {
     float: left;
